@@ -17,7 +17,7 @@ function Sidebar({ isOpen, onClose }) {
             <li>
               <span className="text-[#3fadab] font-semibold block mb-2">Platform</span>
               <ul className="ml-4 space-y-2">
-                {/* <li><a href="./scan" className="text-gray-300 hover:text-white">Scan</a></li> */}
+                <li><a href="./" className="text-gray-300 hover:text-white">Scan</a></li>
                 {/* <li><a href="./sports" className="text-gray-300 hover:text-white">Sports</a></li> */}
                 {/* <li><a href="./leaderboard" className="text-gray-300 hover:text-white">Leaderboard</a></li> */}
                 <li><a href="./livescoring" className="text-gray-300 hover:text-white">Live Scoring</a></li>

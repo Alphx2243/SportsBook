@@ -295,22 +295,22 @@ export default function RootLayout({ children }) {
               <h4 className="text-teal-400 font-semibold mb-4">Platform</h4>
               <ul className="space-y-2">
                 <li>
-                  <a href="#" className="hover:text-white transition">
+                  <a href="./" className="hover:text-white transition">
                     Scan
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:text-white transition">
+                  <a href="./" className="hover:text-white transition">
                     Sports
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:text-white transition">
+                  <a href="./livescoring" className="hover:text-white transition">
                     Leaderboard
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:text-white transition">
+                  <a href="./livescoring" className="hover:text-white transition">
                     Live Scoring
                   </a>
                 </li>
@@ -320,22 +320,22 @@ export default function RootLayout({ children }) {
               <h4 className="text-teal-400 font-semibold mb-4">Features</h4>
               <ul className="space-y-2">
                 <li>
-                  <a href="#" className="hover:text-white transition">
+                  <a href="./occupancy" className="hover:text-white transition">
                     Occupancy
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:text-white transition">
+                  <a href="./playersearch" className="hover:text-white transition">
                     Player Search
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:text-white transition">
+                  <a href="./bookingsystem" className="hover:text-white transition">
                     Booking
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:text-white transition">
+                  <a href="./others" className="hover:text-white transition">
                     Others
                   </a>
                 </li>
@@ -345,38 +345,24 @@ export default function RootLayout({ children }) {
               <h4 className="text-teal-400 font-semibold mb-4">Resources</h4>
               <ul className="space-y-2">
                 <li>
-                  <a href="#" className="hover:text-white transition">
+                  <a href="./others" className="hover:text-white transition">
                     Help Center
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:text-white transition">
+                  <a href="./others" className="hover:text-white transition">
                     Community
                   </a>
                 </li>
-                <li>
-                  <a href="#" className="hover:text-white transition">
-                    Tutorials
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="hover:text-white transition">
-                    Blog
-                  </a>
-                </li>
+               
               </ul>
             </div>
             <div>
               <h4 className="text-teal-400 font-semibold mb-4">Company</h4>
               <ul className="space-y-2">
                 <li>
-                  <a href="#" className="hover:text-white transition">
+                  <a href="./" className="hover:text-white transition">
                     About Us
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="hover:text-white transition">
-                    Careers
                   </a>
                 </li>
                 <li>
