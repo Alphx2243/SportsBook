@@ -62,6 +62,16 @@ function QRSection() {
               />
             </Link>
           )}
+
+{showQR && (
+  <span
+            className="bg-[#1a1a1a]   text-white px-6 py-2 mt-2 rounded hover:bg-[#2d2d2d] transition mb-4"
+          >
+            Click on the QR
+          </span>
+)}
+
+
         </div>
 
         <div className="bg-[#1a1a1a] p-8 rounded-lg min-w-[400px]">
