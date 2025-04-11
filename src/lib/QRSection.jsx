@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import Link from 'next/link';
 
 function QRSection() {
   const [time, setTime] = useState({ hours: 1, minutes: 0, seconds: 0 });
@@ -52,11 +53,14 @@ function QRSection() {
           </button>
 
           {showQR && (
-            <img
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/QR_Code_Example.svg/1200px-QR_Code_Example.svg.png"
-              alt="QR Code"
-              className="w-48 h-48 bg-white p-2 rounded-lg"
-            />
+            <Link href="./afterscan">
+
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/QR_Code_Example.svg/1200px-QR_Code_Example.svg.png"
+                alt="QR Code"
+                className="w-48 h-48 bg-white p-2 rounded-lg"
+              />
+            </Link>
           )}
         </div>
 

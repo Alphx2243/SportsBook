@@ -265,7 +265,7 @@ export default function RootLayout({ children }) {
                   <div className="flex items-center justify-between h-16">
                     <button
                       onClick={() => setIsSidebarOpen(true)}
-                      className="bg-[#3fadab] text-white px-3 py-1 rounded text-sm hover:bg-blue-700 transition"
+                      className="bg-[#3fadab] text-white px-3 py-1 rounded text-sm hover:bg-[#3f83ad] transition"
                     >
                       <Menu className="h-5 w-5" />
                     </button>
@@ -275,7 +275,7 @@ export default function RootLayout({ children }) {
                     </div>
                     <button
                       onClick={() => setShowAuth(true)}
-                      className="bg-[#3fadab] text-white px-4 py-1 rounded text-sm hover:bg-blue-700 transition"
+                      className="bg-[#3fadab] text-white px-4 py-1 rounded text-sm hover:bg-[#3f83ad] transition"
                     >
                       LOGIN
                     </button>
